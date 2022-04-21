@@ -3,7 +3,7 @@ import requests
 
 #Marketstack API
 BASE_URL = 'http://api.marketstack.com/v1/tickers/'
-API_KEY = '769dcd380d04a07352e413827830ffb4'
+API_KEY = 'redacted'
 
 #Dividends have been hard coded due to api not consistently containing the information, should not be an issue as dividend returns do not change frequently
 DIV_DICT = {'Apple':['AAPL', 0.88 ], 'Coca-Cola':['KO', 1.76], 'Starbucks':['SBUX', 1.96], 'Nike':['NKE', 1.22], 'Target':['TGT', 3.60]}
